@@ -20,9 +20,10 @@ class School
   end
 
   def sort
-    binding.pry
-    @roaster.collect do |grade, students|
-      students.sort
+    if @roaster
+      @roaster.collect do |grade, students|
+        students.sort
+      end
     end
   end
 end
