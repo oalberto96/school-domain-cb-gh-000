@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    @roaster.collect do |grade, students|
+    @roaster.map do |grade, students|
       students.sort
     end
   end
