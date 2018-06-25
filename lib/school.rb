@@ -17,4 +17,8 @@ class School
   def grade(grades_students)
     @roster[grades_students]
   end
+
+  def sort
+    @roaster.collect do |grade, students|
+  end
 end
