@@ -22,7 +22,7 @@ class School
   def sort
     if @roster
       @roster.collect do |grade, students|
-        students.sort
+        students.sort!
       end
     end
     binding.pry
