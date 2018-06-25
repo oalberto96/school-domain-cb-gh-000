@@ -25,7 +25,6 @@ class School
         students.sort!
       end
     end
-    binding.pry
     @roster
   end
 end
