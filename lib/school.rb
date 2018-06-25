@@ -19,6 +19,7 @@ class School
   end
 
   def sort
+    binding.pry
     @roaster.collect do |grade, students|
       students.sort
     end
