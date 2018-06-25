@@ -24,8 +24,8 @@ class School
       @roaster.collect do |grade, students|
         students.sort
       end
-      
     end
+    binding.pry
     @roaster
   end
 end
