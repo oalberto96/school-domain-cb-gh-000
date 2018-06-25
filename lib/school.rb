@@ -24,7 +24,8 @@ class School
       @roaster.collect do |grade, students|
         students.sort
       end
-      @roaster
+      
     end
+    @roaster
   end
 end
